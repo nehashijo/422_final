@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>4a80e5706cc2402ebf9496627443cc09</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="classifying-breast-cancer-data" class="cell markdown">
+<h1>Classifying Breast Cancer Data</h1>
+<p>Matt Fox, Michael Mannino, Kaleb Schmucki, Neha Shijo</p>
+</section>
+<section id="imports" class="cell markdown">
+<h1>Imports</h1>
+</section>
+<div class="cell code" data-execution_count="1">
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Math and statistics</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Utility functions</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> src.utils <span class="im">import</span> <span class="op">*</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> json</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Graphing and visualizations</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>seaborn.set_theme()</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Removes Jupyter notebook warnings (Optional)</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> warnings</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>warnings.filterwarnings(<span class="st">&#39;ignore&#39;</span>)</span></code></pre></div>
+</div>
+<section id="introduction" class="cell markdown">
+<h1>Introduction</h1>
+</section>
+<div class="cell markdown">
+<p>Breast cancer is a type of cancer that starts in the breast. Cancer starts when cells begin to grow out of control. Breast cancer can occur in women and rarely in men. Symptoms of breast cancer include a lump in the breast, bloody discharge from the nipple, and changes in the shape or texture of the nipple or breast. The treatment of breast cancer depends on the stage of cancer. It may consist of chemotherapy, radiation, and surgery. About 1 in 8 U.S. women (about 12%) will develop invasive breast cancer over the course of her lifetime; it is the most commonly diagnosed cancer among American women besides skin cancer. Given these horrific statistics and the terrible disease’s affect the loved ones of our group members, the goal of this project is to compare and contrast various models to be able to predict breast cancer severity in women.</p>
+</div>
+<section id="data-cleaning" class="cell markdown">
+<h1>Data Cleaning</h1>
+</section>
+<div class="cell markdown">
+<p>Before analysis can be accurately made, we will standardize our data. Standardization is done by subtracting each data feature from the feature’s mean and dividing by the feature’s standard deviation. After this computation, each feature will have a mean of 0 and a standard deviation of 1.</p>
+</div>
+<div class="cell code" data-execution_count="2">
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Read data from CSV into dataframe</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">&#39;data/wdbc.data&#39;</span>, sep<span class="op">=</span><span class="st">&#39;,&#39;</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>df</span></code></pre></div>
+<div class="output execute_result" data-execution_count="2">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>diagnosis</th>
+      <th>radius</th>
+      <th>texture</th>
+      <th>perimeter</th>
+      <th>area</th>
+      <th>smoothness</th>
+      <th>compactness</th>
+      <th>concavity</th>
+      <th>concave_points</th>
+      <th>symmetry</th>
+      <th>fractal_dimension</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>842302</td>
+      <td>M</td>
+      <td>17.99</td>
+      <td>10.38</td>
+      <td>122.80</td>
+      <td>1001.0</td>
+      <td>0.11840</td>
+      <td>0.27760</td>
+      <td>0.30010</td>
+      <td>0.14710</td>
+      <td>0.2419</td>
+      <td>0.07871</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>842517</td>
+      <td>M</td>
+      <td>20.57</td>
+      <td>17.77</td>
+      <td>132.90</td>
+      <td>1326.0</td>
+      <td>0.08474</td>
+      <td>0.07864</td>
+      <td>0.08690</td>
+      <td>0.07017</td>
+      <td>0.1812</td>
+      <td>0.05667</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>84300903</td>
+      <td>M</td>
+      <td>19.69</td>
+      <td>21.25</td>
+      <td>130.00</td>
+      <td>1203.0</td>
+      <td>0.10960</td>
+      <td>0.15990</td>
+      <td>0.19740</td>
+      <td>0.12790</td>
+      <td>0.2069</td>
+      <td>0.05999</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>84348301</td>
+      <td>M</td>
+      <td>11.42</td>
+      <td>20.38</td>
+      <td>77.58</td>
+      <td>386.1</td>
+      <td>0.14250</td>
+      <td>0.28390</td>
+      <td>0.24140</td>
+      <td>0.10520</td>
+      <td>0.2597</td>
+      <td>0.09744</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>84358402</td>
+      <td>M</td>
+      <td>20.29</td>
+      <td>14.34</td>
+      <td>135.10</td>
+      <td>1297.0</td>
+      <td>0.10030</td>
+      <td>0.13280</td>
+      <td>0.19800</td>
+      <td>0.10430</td>
+      <td>0.1809</td>
+      <td>0.05883</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>564</th>
+      <td>926424</td>
+      <td>M</td>
+      <td>21.56</td>
+      <td>22.39</td>
+      <td>142.00</td>
+      <td>1479.0</td>
+      <td>0.11100</td>
+      <td>0.11590</td>
+      <td>0.24390</td>
+      <td>0.13890</td>
+      <td>0.1726</td>
+      <td>0.05623</td>
+    </tr>
+    <tr>
+      <th>565</th>
+      <td>926682</td>
+      <td>M</td>
+      <td>20.13</td>
+      <td>28.25</td>
+      <td>131.20</td>
+      <td>1261.0</td>
+      <td>0.09780</td>
+      <td>0.10340</td>
+      <td>0.14400</td>
+      <td>0.09791</td>
+      <td>0.1752</td>
+      <td>0.05533</td>
+    </tr>
+    <tr>
+      <th>566</th>
+      <td>926954</td>
+      <td>M</td>
+      <td>16.60</td>
+      <td>28.08</td>
+      <td>108.30</td>
+      <td>858.1</td>
+      <td>0.08455</td>
+      <td>0.10230</td>
+      <td>0.09251</td>
+      <td>0.05302</td>
+      <td>0.1590</td>
+      <td>0.05648</td>
+    </tr>
+    <tr>
+      <th>567</th>
+      <td>927241</td>
+      <td>M</td>
+      <td>20.60</td>
+      <td>29.33</td>
+      <td>140.10</td>
+      <td>1265.0</td>
+      <td>0.11780</td>
+      <td>0.27700</td>
+      <td>0.35140</td>
+      <td>0.15200</td>
+      <td>0.2397</td>
+      <td>0.07016</td>
+    </tr>
+    <tr>
+      <th>568</th>
+      <td>92751</td>
+      <td>B</td>
+      <td>7.76</td>
+      <td>24.54</td>
+      <td>47.92</td>
+      <td>181.0</td>
+      <td>0.05263</td>
+      <td>0.04362</td>
+      <td>0.00000</td>
+      <td>0.00000</td>
+      <td>0.1587</td>
+      <td>0.05884</td>
+    </tr>
+  </tbody>
+</table>
+<p>569 rows × 12 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="3">
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert diagnosis from M (malignant), B (benign) to 1 (malignant), 0 (benign)</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;diagnosis&#39;</span>] <span class="op">=</span> <span class="bu">list</span>(<span class="bu">map</span>(<span class="kw">lambda</span> x: <span class="bu">int</span>(x <span class="op">==</span> <span class="st">&#39;M&#39;</span>), df[<span class="st">&#39;diagnosis&#39;</span>]))</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Drop id column</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> df.drop(<span class="st">&#39;id&#39;</span>, axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Mean center and standardize all columns except diagnosis</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> column <span class="kw">in</span> df.columns[<span class="dv">1</span>:]:</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    df[column] <span class="op">=</span> df[column].<span class="bu">apply</span>(<span class="kw">lambda</span> x : (x <span class="op">-</span> df[column].mean()) <span class="op">/</span> df[column].std())</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>df.describe()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="4">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>diagnosis</th>
+      <th>radius</th>
+      <th>texture</th>
+      <th>perimeter</th>
+      <th>area</th>
+      <th>smoothness</th>
+      <th>compactness</th>
+      <th>concavity</th>
+      <th>concave_points</th>
+      <th>symmetry</th>
+      <th>fractal_dimension</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>569.000000</td>
+      <td>5.690000e+02</td>
+      <td>5.690000e+02</td>
+      <td>5.690000e+02</td>
+      <td>5.690000e+02</td>
+      <td>5.690000e+02</td>
+      <td>5.690000e+02</td>
+      <td>5.690000e+02</td>
+      <td>5.690000e+02</td>
+      <td>5.690000e+02</td>
+      <td>5.690000e+02</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>0.372583</td>
+      <td>-1.311195e-16</td>
+      <td>6.243785e-17</td>
+      <td>-1.123881e-16</td>
+      <td>-2.185325e-16</td>
+      <td>-8.366672e-16</td>
+      <td>1.873136e-16</td>
+      <td>2.497514e-17</td>
+      <td>-4.995028e-17</td>
+      <td>1.748260e-16</td>
+      <td>4.838933e-16</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>0.483918</td>
+      <td>1.000000e+00</td>
+      <td>1.000000e+00</td>
+      <td>1.000000e+00</td>
+      <td>1.000000e+00</td>
+      <td>1.000000e+00</td>
+      <td>1.000000e+00</td>
+      <td>1.000000e+00</td>
+      <td>1.000000e+00</td>
+      <td>1.000000e+00</td>
+      <td>1.000000e+00</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>0.000000</td>
+      <td>-2.027864e+00</td>
+      <td>-2.227289e+00</td>
+      <td>-1.982759e+00</td>
+      <td>-1.453164e+00</td>
+      <td>-3.109349e+00</td>
+      <td>-1.608721e+00</td>
+      <td>-1.113893e+00</td>
+      <td>-1.260710e+00</td>
+      <td>-2.741705e+00</td>
+      <td>-1.818265e+00</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>0.000000</td>
+      <td>-6.887793e-01</td>
+      <td>-7.253249e-01</td>
+      <td>-6.913472e-01</td>
+      <td>-6.666089e-01</td>
+      <td>-7.103378e-01</td>
+      <td>-7.464292e-01</td>
+      <td>-7.430941e-01</td>
+      <td>-7.372951e-01</td>
+      <td>-7.026215e-01</td>
+      <td>-7.220040e-01</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>0.000000</td>
+      <td>-2.148925e-01</td>
+      <td>-1.045442e-01</td>
+      <td>-2.357726e-01</td>
+      <td>-2.949274e-01</td>
+      <td>-3.486040e-02</td>
+      <td>-2.217454e-01</td>
+      <td>-3.419391e-01</td>
+      <td>-3.973715e-01</td>
+      <td>-7.156354e-02</td>
+      <td>-1.781226e-01</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>1.000000</td>
+      <td>4.689800e-01</td>
+      <td>5.836621e-01</td>
+      <td>4.992377e-01</td>
+      <td>3.631877e-01</td>
+      <td>6.356397e-01</td>
+      <td>4.934227e-01</td>
+      <td>5.255994e-01</td>
+      <td>6.463664e-01</td>
+      <td>5.303125e-01</td>
+      <td>4.705693e-01</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>1.000000</td>
+      <td>3.967796e+00</td>
+      <td>4.647799e+00</td>
+      <td>3.972634e+00</td>
+      <td>5.245913e+00</td>
+      <td>4.766717e+00</td>
+      <td>4.564409e+00</td>
+      <td>4.239858e+00</td>
+      <td>3.924477e+00</td>
+      <td>4.480808e+00</td>
+      <td>4.906602e+00</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>Our data has been officially standardized, as seen above.</p>
+</div>
+<div class="cell code" data-execution_count="5">
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># adding another version of the data which classifies Malignant as True and Benign as False</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>df_bool <span class="op">=</span> df.copy()</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>d <span class="op">=</span> {<span class="st">&#39;M&#39;</span>:<span class="va">True</span>, <span class="st">&#39;B&#39;</span>:<span class="va">False</span>}</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>df_bool <span class="op">=</span> df.replace(d)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>For our references, let us plot the breakdown between number of benign and malignant datapoints:</p>
+</div>
+<div class="cell code" data-execution_count="35">
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot number of begign vs malignant tumors</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>plot_bar(df, <span class="st">&#39;diagnosis&#39;</span>, [<span class="st">&#39;Benign&#39;</span>, <span class="st">&#39;Malignant&#39;</span>], <span class="st">&#39;Individual Classification&#39;</span>, <span class="st">&#39;Label&#39;</span>, <span class="st">&#39;Count&#39;</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_4e603fdc929d4883aa732b65cc8b056d/5053410a2453b3be3432c8a88126d90efa04c307.png" /></p>
+</div>
+</div>
+<section id="bayes" class="cell markdown">
+<h1>Bayes</h1>
+</section>
+<div class="cell markdown">
+<p>The first classifier we will be exploring is the Naive Bayes Classifier, a probabilistic classifier based on assuming features are independent and utilizes Bayes Theorem. This classifier is slightly different from the rest of the classifiers we will be exploring throughout this report in that it is required to know the underlying distribution of the data in order to classify; thus, we began by fitting 3 distributions to each of the features: the normal, gamma, and beta distributions.</p>
+<p>As mentioned above, because we standardized our data, reducing the mean to 0 and variance to 1, utilizing the SciPy probability density function fitting tools made this an incredibly easy task. Below we will explore fitting all three distributions to each of the features of both the combined, malignant, and benign distributions:</p>
+</div>
+<div class="cell code" data-execution_count="36">
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> column <span class="kw">in</span> df.columns[<span class="dv">1</span>:]:</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>    plot_histogram_distribution(df, column, <span class="ss">f&#39;</span><span class="sc">{</span>column<span class="sc">.</span>capitalize()<span class="sc">}</span><span class="ss"> Distribution&#39;</span>, <span class="ss">f&#39;</span><span class="sc">{</span>column<span class="sc">}</span><span class="ss">&#39;</span>, <span class="st">&#39;Frequency&#39;</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_4e603fdc929d4883aa732b65cc8b056d/af6ada998163e1d59ff9adc92ce3c0cc63e086c0.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_4e603fdc929d4883aa732b65cc8b056d/1c34f302b904dbb60e4679b48a3768290465abc2.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_4e603fdc929d4883aa732b65cc8b056d/880c5c8774ce7b9b9852642d5a2dc26b5b17c8d2.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_4e603fdc929d4883aa732b65cc8b056d/79b5fbfef6441f7d0ad21e3cc748a8c46dbf7594.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_4e603fdc929d4883aa732b65cc8b056d/68963ba1bcfd1bae5657792e4d033c3c1a88e41e.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_4e603fdc929d4883aa732b65cc8b056d/c92afa38535adbbf80ba08e9df476258474366e0.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_4e603fdc929d4883aa732b65cc8b056d/bdba5670c64434bdd707d176d26e24e4ab0789ee.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_4e603fdc929d4883aa732b65cc8b056d/0a13493d86e2635dec3f97466e1dbc6d13f12654.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_4e603fdc929d4883aa732b65cc8b056d/f1fb7bbeb84b838a786aae7f76840f1106838cc5.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_4e603fdc929d4883aa732b65cc8b056d/dc6035912d1241c18f749942e2e0d6e5156729b4.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Analyzing the above fitted distributions, it becomes apparent that not all of these features are accurately fit by the normal, gamma, or beta. For example, take a look at the Area, Concavity, and Concave Point features, specifically the combined data. Comparing these graphs to, let's say, the benign Radius or Symmetry distributions, these specific distributions do not fit accurately to our data.</p>
+<p>Additionally, we have made incorrect assumptions in attempting to fit a Naive Bayes Classifier. As mentioned above, the classifier requires each of our data features to be independent of each other; looking more into how our dataset was collected, we can immediately tell this is not the case. As an example, the features Radius, Perimeter, and Area all are derived from measurements of tumors from patients. More can be read about how each of the features were collected and how they relate <a href="https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29">here</a>.</p>
+<p>Due to these reasons, we have decided to move against continuing our Bayes Classifier analysis.</p>
+</div>
+<section id="svm" class="cell markdown">
+<h1>SVM</h1>
+</section>
+<div class="cell markdown">
+<p>Our next classifier we will be exploring is the Support Vector Machine. Very similar to lots of the other linear classifiers we have discussed throughout this course, SVM relies on calculating a hyperplane that linearly separates our data. What becomes different with SVM is the utilization of kernel functions. Kernel functions allow us to add or remove dimensionality and other measurements within our data; what this allows us to do is sometimes better fit linear classifiers to non-linear data. While this may immediately sound like a direct improvement to the simple SVM, kernel functions might add to overfitting of our classifier.</p>
+<p>Below, we analyze 4 different types of kernel functions: linear (simple), polynomial, radial, and sigmoid. The linear kernel is just our standard SVM. The polynomial kernel function is a generic form of kernels with degree greater than one degree; it has been seen to work very well in processing, analyzing and generating images. In this case, we tested polynomials of degree 2, 8, and 16. The radial basis function, also known as the Gaussian kernel, is used mainly when we don’t understand data in advance; it operates well with lesser amounts of data, however, employing it on smaller datasets may increase the likelihood of overfitting. The sigmoid kernel is mainly used in applying neural networks.</p>
+<p>Below are the results of applying 10,000 iterations of each kernel, utilizing a random 85%-15% train-test split at each iteration:</p>
+</div>
+<div class="cell code" data-execution_count="37">
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Test various kernels for SVM</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Testing: linear, degree 2, 8, 16 polynomials, Gaussian, and sigmoid</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>best_kernel, best_accuracy <span class="op">=</span> _, <span class="dv">0</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>kernel_mapping <span class="op">=</span> {</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;{&quot;kernel&quot; : &quot;linear&quot;}&#39;</span>                 : <span class="st">&#39;Linear Kernel SVM&#39;</span>,</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;{&quot;kernel&quot; : &quot;poly&quot;, &quot;degree&quot; : 2}&#39;</span>     : <span class="st">&#39;Polynomial with degree 2 Kernel SVM&#39;</span>,</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;{&quot;kernel&quot; : &quot;poly&quot;, &quot;degree&quot; : 8}&#39;</span>     : <span class="st">&#39;Polynomial with degree 8 Kernel SVM&#39;</span>,</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;{&quot;kernel&quot; : &quot;poly&quot;, &quot;degree&quot; : 16}&#39;</span>    : <span class="st">&#39;Polynomial with degree 16 Kernel SVM&#39;</span>,</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;{&quot;kernel&quot; : &quot;rbf&quot;}&#39;</span>                    : <span class="st">&#39;Gaussian Kernel SVM&#39;</span>,</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;{&quot;kernel&quot; : &quot;sigmoid&quot;}&#39;</span>                : <span class="st">&#39;Sigmoid Kernel SVM&#39;</span>,</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> kernel, desc <span class="kw">in</span> kernel_mapping.items():</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Build, train, and run SVM over 10000 iterations</span></span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>    accuracies, accuracy <span class="op">=</span> run_SVM(df, json.loads(kernel))</span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&#39;Accuracy Over 10000 Iterations for </span><span class="sc">{</span>desc<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>accuracy <span class="op">*</span> <span class="dv">100</span><span class="sc">}</span><span class="ss">%&#39;</span>)</span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Box plot for all SVM iterations</span></span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a>    plot_box(accuracies, <span class="ss">f&#39;SVM Accuracy Distribution for </span><span class="sc">{</span>desc<span class="sc">}</span><span class="ss">&#39;</span>, <span class="st">&#39;&#39;</span>, <span class="st">&#39;Accuracy&#39;</span>)</span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> accuracy <span class="op">&gt;</span> best_accuracy:</span>
+<span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a>        best_kernel <span class="op">=</span> desc</span>
+<span id="cb8-23"><a href="#cb8-23" aria-hidden="true" tabindex="-1"></a>        best_accuracy <span class="op">=</span> accuracy</span>
+<span id="cb8-24"><a href="#cb8-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-25"><a href="#cb8-25" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;Best Kernel: </span><span class="sc">{</span>best_kernel<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb8-26"><a href="#cb8-26" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;Best Accuracy: </span><span class="sc">{</span>best_accuracy<span class="sc">}</span><span class="ss">&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Accuracy Over 10000 Iterations for Linear Kernel SVM: 93.33406976744187%
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_4e603fdc929d4883aa732b65cc8b056d/ac21a30344931001e000f268676fe231fdda78b5.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Accuracy Over 10000 Iterations for Polynomial with degree 2 Kernel SVM: 76.5836046511628%
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_4e603fdc929d4883aa732b65cc8b056d/495d15091cda91a146ee997948562654ab8dd596.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Accuracy Over 10000 Iterations for Polynomial with degree 8 Kernel SVM: 75.30453488372093%
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_4e603fdc929d4883aa732b65cc8b056d/43fd98b6fba4ba563ba82563fbf7c42325e9c983.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Accuracy Over 10000 Iterations for Polynomial with degree 16 Kernel SVM: 74.34906976744186%
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_4e603fdc929d4883aa732b65cc8b056d/1e98fea11ceb36554d1c519190adc1e2f369a90c.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Accuracy Over 10000 Iterations for Gaussian Kernel SVM: 94.50720930232559%
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_4e603fdc929d4883aa732b65cc8b056d/d5e4f9e7b057012840e5af3bb7d796a167e0c5ba.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Accuracy Over 10000 Iterations for Sigmoid Kernel SVM: 89.03906976744184%
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_4e603fdc929d4883aa732b65cc8b056d/a74caee79efc541c2e0af14bd5d3d996371ccd30.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Best Kernel: Gaussian Kernel SVM
+Best Accuracy: 0.9450720930232559
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Overall, our SVM performed quite well, each of which performing above ~75% accuracy. Interestingly however, our kernels fall into 2 categories.</p>
+<p>The first is our polynomial kernels. As mentioned above, polynomial kernels are mainly used and have been measured to see success in image classification and generation. When applying them here, across each of the 3 different degrees of polynomials tested, they performed significantly worse than each of the other kernels.</p>
+<p>Our second category is our more successful kernels: linear, RBF, and sigmoid. Each of these performed extremely well, with the RBF and linear performing closely near 93% accuracy; the RBF performed best. As mentioned above, the RBF kernel is a universal kernel best used for extrapolating data, especially when there are lesser amounts. Our dataset of only 569 datapoints is definitely smaller than what would be considered an extensive dataset, thus explaining why this kernel may have performed best. Thinking more about what this kernel actually does, let's think about what Gaussian kernels do across other mathematical functions. Gaussian convolutions, Gaussian blurs, and Normal (Gaussian) Distributions all tend to mold data towards an average. Given that we had to disregard the Bayes Classifier due to feature dependence, the Gaussian kernel might extrapolate these connections to allow for better linear separation utilizing a hyperplane.</p>
+</div>
+<section id="single-layer-perceptron-classifier" class="cell markdown">
+<h1>Single Layer Perceptron Classifier</h1>
+</section>
+<div class="cell markdown">
+<p>Next, we will run the Single Layer Perceptron algorithm. We split the breast cancer dataset into testing and training datasets and run the perceptron algorithm from scikit-learn. To start, we run perceptron for just one iteration and print out the classification report.</p>
+</div>
+<div class="cell code" data-execution_count="38">
+<div class="sourceCode" id="cb16"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># split data up into training and test data</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>X_train, X_test, Y_train, Y_test <span class="op">=</span> train_test_split(df_bool, df_bool[<span class="st">&#39;diagnosis&#39;</span>])</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="co"># get predictions from the Perceptron Classifier, and print the classification reports</span></span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>pred_tr, pred_te <span class="op">=</span> perceptron(X_train, X_test, Y_train)</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>printPerceptron(Y_train, Y_test, pred_tr, pred_te)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Train Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      1.00       264
+           1       0.99      1.00      0.99       162
+
+    accuracy                           1.00       426
+   macro avg       0.99      1.00      1.00       426
+weighted avg       1.00      1.00      1.00       426
+
+Test Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.98      0.99        93
+           1       0.96      1.00      0.98        50
+
+    accuracy                           0.99       143
+   macro avg       0.98      0.99      0.98       143
+weighted avg       0.99      0.99      0.99       143
+
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Let's understand this classification report. What do the labels mean?</p>
+<p>Precision: The ability of a classifier not to label an instance positive that is actually negative</p>
+<p>Recall: The ability of a classifier to find all positive instances</p>
+<p>F1 Score: The percent of positive predictions that were correct</p>
+<p>Note that these measures of accuracy are given for each class, as we can see 0 and 1, where 0 is benign and 1 is malignant.</p>
+<p>To learn more about classification reports, <a href="https://muthu.co/understanding-the-classification-report-in-sklearn/">visit the link here</a></p>
+<p>Looking at the report as a whole, the Perceptron appears to do well, with 99%-100% precision rates on both the training and test data. The recall and F1 scores are also very high.</p>
+<p>However, the perceptron was only run once in this case. Next, let's run the algorithm 10,000 times, store the accuracies that are produced at each run, and average them to see how the single layer perceptron fares in the long term.</p>
+</div>
+<div class="cell code" data-execution_count="43">
+<div class="sourceCode" id="cb18"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Build, train, and run Perceptron over 10000 iterations</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>accuracies, accuracy <span class="op">=</span> run_Perceptron(df)</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;Accuracy Over 10000 Iterations: </span><span class="sc">{</span>accuracy <span class="op">*</span> <span class="dv">100</span><span class="sc">}</span><span class="ss">%&#39;</span>)</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Box plot for all Perceptron iterations</span></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>plot_box(accuracies, <span class="st">&#39;Perceptron Accuracy Distribution&#39;</span>, <span class="st">&#39;&#39;</span>, <span class="st">&#39;Accuracy&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Accuracy Over 10000 Iterations: 91.60558139534885%
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_4e603fdc929d4883aa732b65cc8b056d/22dd250baebf605b1bfa619da083649712ab0bb5.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>We have constructed a boxplot of accuracies over all 10,000 iterations to visalize the data. For this run of the function, we have the following indicators:</p>
+<ul>
+<li>Min: 84%, with outliers in the 70% - 83% range</li>
+<li>Q1: 90%</li>
+<li>Median: 91.6%</li>
+<li>Q2: 94%</li>
+<li>Max: 100%</li>
+</ul>
+<p>On average, the accuracy was 91.6%. We have found that the single layer perceptron algorithm has a relatively high accuracy for binary classification of the breast cancer data.</p>
+</div>
+<section id="multi-layer-perceptron-classifier" class="cell markdown">
+<h1>Multi-Layer Perceptron Classifier</h1>
+</section>
+<div class="cell markdown">
+<p>The next algorithm we run is the Multi-Layer Perceptron Classifier through scikit-learn. First, we split up the data into training and test data. The Y matrix, or labels, is the diagnosis of that data, malignant or benign. We modified the data to be in true/false form earlier into the dataframe df_bool. We use the default settings, which include the following:</p>
+<ul>
+<li>Hidden layer size: 100</li>
+<li>Activation function: Relu (rectified linear unit function)</li>
+<li>Optimizer: Stochastic Gradient Descent</li>
+</ul>
+<p>To start, we just run 1 epoch of the network.</p>
+</div>
+<div class="cell code" data-execution_count="39">
+<div class="sourceCode" id="cb20"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># split data up into training and test data</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>X_train, X_test, Y_train, Y_test <span class="op">=</span> train_test_split(df_bool, df_bool[<span class="st">&#39;diagnosis&#39;</span>])</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a><span class="co"># get predictions from the MLP Classifier, and print the classification reports, starting with 1 iteration</span></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>pred_tr, pred_te <span class="op">=</span> MLPClassify(X_train, X_test, Y_train, <span class="dv">1</span>)</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>printMLP(Y_train, Y_test, pred_tr, pred_te)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Train Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.90      0.92       263
+           1       0.85      0.91      0.88       163
+
+    accuracy                           0.90       426
+   macro avg       0.90      0.91      0.90       426
+weighted avg       0.91      0.90      0.90       426
+
+Test Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.80      0.86        94
+           1       0.70      0.90      0.79        49
+
+    accuracy                           0.83       143
+   macro avg       0.82      0.85      0.82       143
+weighted avg       0.86      0.83      0.84       143
+
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>As the classification reports show, it seems that the MLP Classifier does a pretty good job even at just 1 iteration, getting high accuracy on the test set and decently high on the training set. At this point, there is no indication that the algorithm has any glaring problems, like underfitting or overfitting. Now, we try testing it over multiple epochs, and graph the accuracy score over the number of epochs or iterations. Still, we are using the default settings.</p>
+</div>
+<div class="cell code" data-execution_count="40">
+<div class="sourceCode" id="cb22"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="co"># get the data on mean score over x iterations, then plot training and test accuracy scores.</span></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>iterations, training_scores, test_scores <span class="op">=</span> get_score_data(X_train, Y_train, X_test, Y_test, <span class="dv">35</span>)</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>create_score_plots(iterations, training_scores, test_scores)</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>    </span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_4e603fdc929d4883aa732b65cc8b056d/42af89bac70c842091fb170cd2eada6db5f5361a.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>It looks like the training accuracy sharply increases with the first few iterations, then steadily increases from there. The model could be said to overfit with more epochs, which follows logically. For the test data, the accuracy sharply increases with the first few iterations (like the training data). Then, it seems to overfit with a higher number of epochs, but dips and even decreases with greater and greater number of iterations. This simply means that the model was overfitting the training data, which checks out with our analysis of the first plot.</p>
+<p>Next, we try a different activation function, 'tanh'.</p>
+</div>
+<div class="cell code" data-execution_count="41">
+<div class="sourceCode" id="cb23"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># get the data on mean score over x iterations, then plot training and test accuracy scores.</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>iterations, training_scores, test_scores <span class="op">=</span> get_score_data(X_train, Y_train, X_test, Y_test, <span class="dv">35</span>, <span class="st">&#39;tanh&#39;</span>)</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>create_score_plots(iterations, training_scores, test_scores)</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_4e603fdc929d4883aa732b65cc8b056d/a36afbd48763a6a3f6e20176d8f90708fc1d32ad.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>It seems the trends of both training and test accuracy carry over from the previous plots. However, the test data doesn't overfit as bad with higher epochs and doesn't actually decrease in accuracy with a very large number of iterations.</p>
+<p>The MLP Classifier model from scikit-learn seems to generally do a good job with classifying this data. However, with some overfitting occurring, there is room for improvement. One thing that would help errors in classification is a larger dataset. While this data has 100s of examples, something more in the 1000s would help the classifier learn and avoid overfitting. Additionally, trying different optimizers or activation functions would be beneficial to see if they assist classification. We decided only to showcase two different activation functions and the epoch plots for consideration of space and concision.</p>
+</div>
+<section id="k-nearest-neighbors" class="cell markdown">
+<h1>K-Nearest-Neighbors</h1>
+<p>K-Nearest-Neighbors (KNN) is a lazy machine learning algorithm that classifies by proximity of data points to neighboring data points. The largest factor in a KNN algorithm's accuracy is choosing the correct hyperparameter value of K, that is, how many neighbors is one polling to vote on a test data point. Additionally, KNN can certainly run on our data set with higher dimensions, however, I will only be running it based on 2 features representing size. So summarizing, the high-level goals will be: (A) to find the value of K that (B) best classifies whether the tumors are malignant or benign (C) based on size.</p>
+<p>First, I choose perimeter and area of the tumor as the features to analyze, but leave out radius, for visualization and redundancy reasons. It is much easier to visualize 2-dimensional data rather than 3-dimensional, and both the features perimeter and area are dependent on the radius. The tumors are sphereical in shape and the area formula for a sphere is "area_sphere = 4(pi)(r^2)" while the perimeter formula is "2(pi)(r)," thus both relying on the radius. Additionally, as we've seen in class, data points will become closer as their dimensionality increases. Altohugh this is really only a big problem as we approach dimensionalities in the double and triple digits, working with only 2-dimensional data will rid any bias introduced from this phenomena that could negatively affect accuracy.</p>
+<p>Secondly, I will identify which value of K results in the best accuracy. I do this by running KNN classifiers with a K-value assigned to a variable in the range 1 to A (A being a pre-specified number, 20 now) 10 times each. Meaning that K=1 will be run 10 times, and its average accuracy stored, then followed by 2, and 3, all the way up to A (currently 20). Then, out of these runs, the K- Value with the highest average accuracy will be stored.</p>
+<p>Lastly, for each "best K-value" found in the previous part, I will run a specified amount of iterations (see epochs variable below, currently 100) with that K-Value. This will take the best K-Value measured over a short period of tests, and continue averaging their accuracies over many tests. I then visualize the data, where the output graphs show which values of K were picked, and their average accuracies over a given amount of iterations (the epoch variable below).</p>
+</section>
+<div class="cell code" data-execution_count="11">
+<div class="sourceCode" id="cb24"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> collections <span class="im">import</span> defaultdict</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a><span class="co">## Best K-Value Identification ##</span></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a><span class="co">#inputs for classifications, examples, range of K_values to test, and Epochs</span></span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>diagnoses <span class="op">=</span> <span class="bu">list</span>(df[<span class="st">&#39;diagnosis&#39;</span>])</span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>sizes <span class="op">=</span> merge(<span class="bu">list</span>(df_bool[<span class="st">&#39;perimeter&#39;</span>]), <span class="bu">list</span>(df_bool[<span class="st">&#39;area&#39;</span>]))</span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>range_K_values <span class="op">=</span> <span class="dv">20</span></span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a>epochs <span class="op">=</span> <span class="dv">100</span></span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a><span class="co">#dictionary to store data in</span></span>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a>plot_data <span class="op">=</span> defaultdict(<span class="kw">lambda</span>: [])</span>
+<span id="cb24-13"><a href="#cb24-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-14"><a href="#cb24-14" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>,epochs):</span>
+<span id="cb24-15"><a href="#cb24-15" aria-hidden="true" tabindex="-1"></a>    <span class="co">#find the best k_val, its corresponding accuracy, and then add it to the data to be visualized</span></span>
+<span id="cb24-16"><a href="#cb24-16" aria-hidden="true" tabindex="-1"></a>    best_K_val, acc <span class="op">=</span> find_best_K_val(range_K_values, diagnoses, sizes)</span>
+<span id="cb24-17"><a href="#cb24-17" aria-hidden="true" tabindex="-1"></a>    plot_data[best_K_val].append(acc)</span>
+<span id="cb24-18"><a href="#cb24-18" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb24-19"><a href="#cb24-19" aria-hidden="true" tabindex="-1"></a>    <span class="co">#uncomment below if you would like a progress tracker</span></span>
+<span id="cb24-20"><a href="#cb24-20" aria-hidden="true" tabindex="-1"></a>    <span class="co">#if i % 10 == 0:</span></span>
+<span id="cb24-21"><a href="#cb24-21" aria-hidden="true" tabindex="-1"></a>        <span class="co">#print(&quot;At epoch: {}&quot;.format(i))</span></span>
+<span id="cb24-22"><a href="#cb24-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-23"><a href="#cb24-23" aria-hidden="true" tabindex="-1"></a>ks, avgs <span class="op">=</span> mean_dict_of_lists(plot_data)</span>
+<span id="cb24-24"><a href="#cb24-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-25"><a href="#cb24-25" aria-hidden="true" tabindex="-1"></a>freqs <span class="op">=</span> []</span>
+<span id="cb24-26"><a href="#cb24-26" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> k <span class="kw">in</span> ks:</span>
+<span id="cb24-27"><a href="#cb24-27" aria-hidden="true" tabindex="-1"></a>    freqs.append(<span class="bu">len</span>(plot_data[k]))</span>
+<span id="cb24-28"><a href="#cb24-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-29"><a href="#cb24-29" aria-hidden="true" tabindex="-1"></a>plot_bar_graph(ks, avgs, <span class="st">&quot;K Values and their Average Accuracies for Classifying Tumors over </span><span class="sc">{}</span><span class="st"> Epochs&quot;</span>.<span class="bu">format</span>(epochs), <span class="st">&quot;K-Values&quot;</span>, <span class="st">&quot;Averages&quot;</span>)</span>
+<span id="cb24-30"><a href="#cb24-30" aria-hidden="true" tabindex="-1"></a>plot_bar_graph(ks, freqs, <span class="st">&quot;Frequency of K-Values Chosen over </span><span class="sc">{}</span><span class="st"> Epochs&quot;</span>.<span class="bu">format</span>(epochs), <span class="st">&quot;K-Values&quot;</span>, <span class="st">&quot;Frequency over </span><span class="sc">{}</span><span class="st"> Epochs&quot;</span>.<span class="bu">format</span>(epochs))</span>
+<span id="cb24-31"><a href="#cb24-31" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Average Accuracy Rate over All K-Values: </span><span class="sc">{}</span><span class="st">&quot;</span>.<span class="bu">format</span>(np.mean(avgs)))</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_4e603fdc929d4883aa732b65cc8b056d/901a81ff7d580373d247ab6b266b06b915224f6c.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_4e603fdc929d4883aa732b65cc8b056d/bc2df31f45315d922a1455377df436a287ff0bd0.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Average Accuracy Rate over All K-Values: 0.9024805423334835
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>As is shown above, there are a few things that immediately stand out with the results. First is regarding the only hyperparameter, choosing the best k-value. Clearly, in the above example, K=5 is the dominating value... However, this is only slightly a consistent trend. if you were to run this enitre code block multiple times, it would like like the k-values were being picked by a random number generator. You'd run into almost every k-value being chosen with differing frequencies, and almost never a clear winner. With that being said, over the few dozen times I have run this code block above while working on the project, I have noticed that 5 tends to be the general winner, but not clearly enough to be significant.</p>
+<p>With that being said, the results are still increadible with an average accuracy of 90.2%. The reason this is so impressive is because KNN is a lazy classifier, meaning no training necessary. It is by far the quickest and simplest model to implement, and for it to classify correctly 9/10 times means that using this on real world breast cancer data would actually have usable results. If we were to ask this model to classify a new test tumor, we could say with a lot of confidence that the output is correct, which is great for a quick and dirty model like KNN.</p>
+<p><a href="https://rapidminer.com/blog/k-nearest-neighbors-laziest-machine-learning-technique/#:~:text=Why%20is%20the%20k%2Dnearest,any%20calculations%20at%20this%20point.">"K-Nearest Neighbors: A Simple Machine Learning Algorithm"</a></p>
+</div>
+<section id="conclusion" class="cell markdown">
+<h1>Conclusion</h1>
+<p>As a recap, we've discussed predicting breast cancer severity using the following classifiers: Bayes, SVM, Single Layer Perceptron, Multilayer Perceptron, and K-Nearest-Neighbors.</p>
+<p>Regarding the Bayes classifier application, we concluded that we should not use it due to our inability to know the distribution of our data in addition to the incorrect assumption that our data features are independent.</p>
+<p>During our class presentation, we presented that our application of a linear support vector machine reached an accuracy rate of 93.7%. However, it was pointed out to us that we could improve this if we implemented one of a variety of kernals to help reduce the dimensionality of our data. As discussed in the SVM section, the addition of the Gaussian kernal (aka radial basis function, or RBF) increased the SVM perfomance the best, resulting in about a a 94% accuracy, just a tad bit higher than the previous 93.7%.</p>
+<p>Using the Single Layer Perceptron, we were able to achieve a testing accuracy of approximately 91.6% over 10,000 iterations. This figure is impressive, however, it is also a bit disapointing. It only does 1.4% better than our K-Nearest-Neighbors classifier, which has a much lazier implementation that the rigorous training of the perceptron. If we are going to go through the trouble of training something as complex as the preceptron, we'd like to see slightly higher results than a lazy ML algorithm...</p>
+<p>Enter: Multi-Layer Perceptron. After only 5-10 iterations of this classifier, it was easily getting over 95% test accuracy, which is better than all other models we've attempted so far. Although we were approaching a danger zone regarding over fitting, we believe that getting our hands on more examples to train the MLP would allow for an continued high test accuracy while mitigating the risk of overfitting.</p>
+<p>Lastly, we wanted to see how all the above classifiers shaped up against the infamous, lazy machine learning model, KNN. Are any of the ML models discussed actually worth the hassle if KNN can do the same job with much less work. Well, it turns out that every single ML model has a better average performance than KNN, which comes in at approximately 90.2% accuracy. Additionally, we are having slight troubles finding a good and repeatable value of K, which suggests that it may not be the best classifier for this dataset in general.</p>
+<p>Overall, the Multi-Layer Perceptron was the most successful at classifying this breast cancer dataset by severity. We believe that, while there may be a slight danger of overfitting within this model and others, the dataset has 596 examples in it, which is enough to show that our models are locking onto and learning an existing trend to produce their accuracies. We agree that introducing more data points to our models would only solidify which model is the most accurate on average, but we also agree that we believe MLP will rise above all the others if this research were continued.</p>
+</section>
+<div class="cell code">
+<div class="sourceCode" id="cb26"><pre class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+</body>
+</html>
